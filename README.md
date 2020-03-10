@@ -2,11 +2,15 @@
 This repository provides an implementation of benchmarking of Struc2Vec on BrightKite and Proteins Dataset
 For creating the embeddings python2 is required and for the python notebooks python3 is required
 
-before using this be sure to install the following packages
+before using this be sure to install the following packages:
 pip install futures
+
 pip install fastdtw
+
 pip install gensim
+
 pip install keras
+
 pip install tensorflow
 
 Basic Usage:
