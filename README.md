@@ -15,6 +15,7 @@ pip install tensorflow
 
 Basic Usage:
 To get the embeddings on a dataset just run
+
 python src/main.py --input *edgelist* --output *output file* --num-walks 20 --walk-length 80 --window-size 5 --dimensions 128 --OPT1 True --OPT2 True --OPT3 True --until-layer 3
 
 Then once embeddings have been generated just run the kernels in the python notebooks for the tasks. This repo can be used for other datasets as well. Just write the file locations correctly. Before using the embedding files surely delete the first line of it.
